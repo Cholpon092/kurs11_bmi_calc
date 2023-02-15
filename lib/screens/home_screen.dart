@@ -56,11 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   children: [
                     Text(
                       'Height'.toUpperCase(),
-                      style: TextStyle(
-                        fontSize: 25,
-                        color: Colors.white.withOpacity(0.8),
-                        fontWeight: FontWeight.w500,
-                      ),
+                      style: AppTextStyles.yellow35w300
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -69,19 +65,11 @@ class _HomeScreenState extends State<HomeScreen> {
                       children: [
                         Text(
                           currentHeightState.toStringAsFixed(0),
-                          style: TextStyle(
-                            fontSize: 55,
-                            color: Colors.white,
-                            fontWeight: FontWeight.w800,
-                          ),
+                          style: AppTextStyles.
                         ),
                         Text(
                           'cm',
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.white.withOpacity(0.8),
-                            fontWeight: FontWeight.w800,
-                          ),
+                          style: AppTextStyles.white22w500
                         ),
                       ],
                     ),
